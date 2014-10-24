@@ -1,0 +1,19 @@
+[user]
+	# Name used in commit messages.
+	name = Tom Jacob
+	# Email used in commit messages.
+	email = jacobtj@hotmail.com
+[shell]
+	# Default SSH username.
+	username = JacobSparrow
+[sourceforge]
+	# SourceForge username.
+	username = JacobSparrow
+[github]
+	# GitHub username for command-line tools.
+	user = JacobSparrow
+[alias]
+	# Push the current branch upstream to JacobSparrow using the same
+	# branch name for the remote branch.
+	um = !git push --set-upstream JacobSparrow $(git current-branch)
+
